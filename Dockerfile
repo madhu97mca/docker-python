@@ -2,6 +2,6 @@ FROM python
 
 WORKDIR /myapp
 
-COPY ./Add.py .
+COPY . .
 
 CMD ["python","user_info.py","python","Add.py"]
