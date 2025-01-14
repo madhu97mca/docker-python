@@ -4,4 +4,4 @@ WORKDIR /myapp
 
 COPY ./Add.py .
 
-CMD['python','Add.py']
+CMD ["python","Add.py"]
