@@ -2,9 +2,9 @@ FROM python
 
 WORKDIR /myapp
 
-COPY ./Myapp.py .
-
-COPY ./server.txt .
+COPY ./api_demo.py  .
 
 
-CMD ["python","Myapp.py"]
+
+
+CMD ["python","api_demo.py"]
