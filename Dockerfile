@@ -2,6 +2,9 @@ FROM python
 
 WORKDIR /myapp
 
-COPY . .
+COPY ./Myapp.py .
 
-CMD ["python","user_info.py","python","Add.py"]
+COPY ./server.txt .
+
+
+CMD ["python","Myapp.py"]
